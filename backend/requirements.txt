@@ -1,0 +1,20 @@
+# requirements.txt
+
+fastapi==0.136.0
+uvicorn[standard]==0.44.0
+python-dotenv==1.2.2
+pydantic==2.13.2
+
+langchain==1.2.15
+langchain-community==0.4.1
+langchain-text-splitters==1.1.2
+langchain-chroma==1.1.0
+langchain-tavily==0.2.18
+
+pypdf==6.10.2
+httpx==0.28.1
+
+# Hugging Face
+langchain-huggingface==1.2.2
+huggingface-hub==1.11.0
+transformers==5.5.4

@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+
+# Virtual environments
+venv/
+.venv/
+#env/
+
+# Env files / secrets
+#.env
+#.env.*
+#*.env
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Test / cache
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Chroma / local vector DB
+chroma/
+chroma_db/
+vectorstore/
+db/
+
+# Uploaded docs / generated files
+data/
+uploads/
+temp/
+tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
