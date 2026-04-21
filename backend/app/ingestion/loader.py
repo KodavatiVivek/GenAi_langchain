@@ -19,8 +19,7 @@ def load_documents():
      logger.error(f"Error loading documents: {e}")
      return []
 
-if __name__ == "__main__":
-    documents = load_documents()
+
     
 
 

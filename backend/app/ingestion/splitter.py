@@ -10,7 +10,3 @@ def split_documents(documents):
     chunks = text_splitter.split_documents(documents)
     logger.info(f"Successfully split documents into {len(chunks)} chunks.")
     return chunks
-
-if __name__ == "__main__":
-    documents = load_documents()
-    chunks = split_documents(documents)
