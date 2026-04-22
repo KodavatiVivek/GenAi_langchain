@@ -1,10 +1,6 @@
 import sys
 from pathlib import Path
 from langchain_community.document_loaders import PyPDFDirectoryLoader
-from langchain_core.documents import Document
-from ..utils.logger import logger
-from ..utils.exception import CustomException
-
 
 def load_pdfs() -> list[Document]:
     try:
